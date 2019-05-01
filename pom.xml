@@ -26,6 +26,18 @@
             <version>2.0</version>
             <scope>provided</scope>
         </dependency>
+	    <dependency>
+	      <groupId>org.optaplanner</groupId>
+	      <artifactId>optaplanner-core</artifactId>
+	      <version>7.17.0.Final</version>
+	      <scope>provided</scope>
+	    </dependency>
+	    <dependency>
+      		<groupId>org.optaplanner</groupId>
+     	 	<artifactId>optaplanner-persistence-jaxb</artifactId>
+      		<version>7.17.0.Final</version>
+    		<scope>provided</scope>
+    	</dependency>
         <!-- https://mvnrepository.com/artifact/com.squareup.okhttp/okhttp -->
 		<dependency>
 		    <groupId>com.squareup.okhttp</groupId>
